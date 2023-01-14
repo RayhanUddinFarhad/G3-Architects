@@ -2,6 +2,8 @@
 
 
 
+/* Univers area to control the whole CSS project */
+
 * {
 
     margin: 0;
@@ -10,6 +12,7 @@
     font-family: 'Work Sans', sans-serif;
 }
 
+/* Started header area */
 header {
 
     background-color: #FFF4E7;
@@ -38,6 +41,8 @@ ul {
 li {
 
     list-style: none;
+    color: #424242;
+    font-size: 14px;
 }
 
 .banner {
@@ -82,8 +87,11 @@ li {
     width: 80%;
     height: 80%;
     padding-top: 50px;
+    padding-bottom: 45px;
 
 }
+
+/* It is primary button style */
 
 .btn-primary {
 
@@ -93,6 +101,9 @@ li {
     padding: 20px;
     border-radius: 5px;
 }
+
+
+/* Teams area */
 
 section {
     width: 100%;
@@ -106,17 +117,13 @@ section {
     width: 100%;
 
 
-    /* display: flex;
-    justify-content: space-around;
-    justify-items: center;
-    align-items: center; */
+    
 }
 
 .teams {
 
     width: 100%;
     margin: 0 auto;
-    /* Add this line */
     display: flex;
     justify-content: space-around;
     justify-items: center;
@@ -130,7 +137,7 @@ section {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 24px;
-    padding-right: 70px;
+    padding-right: 10px;
     justify-content: center;
     align-content: center;
 
@@ -150,9 +157,10 @@ section {
     color: #727272;
     line-height: 26px;
     font-weight: 400;
-    padding-right: 30px;
 
 }
+
+/* Here Features area styles */
 
 .feature-area {
 
@@ -179,6 +187,8 @@ section {
     color: #727272;
     font-weight: 400;
     font-size: 12px;
+    padding-bottom: 15px;
+
 
 
 }
@@ -203,6 +213,8 @@ section {
     font-size: 20px;
     padding-bottom: 10px;
 }
+
+/* Here is secoundary button's style */
 
 .btn-sec {
 
@@ -247,6 +259,8 @@ section {
 
 
 }
+
+/* This style for bonus area */
 
 
 .bonus-area {
@@ -325,6 +339,9 @@ section {
     font-size: 40px;
     color: #424D79;
 }
+
+
+/* 4 cards style with hover animation */
 .cards {
 
     display: flex;
@@ -363,6 +380,9 @@ section {
 
 }
 
+
+/* Sponsors area */
+
 .sponsor-text  {
 
     text-align: center;
@@ -390,6 +410,8 @@ section {
     padding-top: 60px;
     margin-right: 70px;
 }
+
+/* And Footer area */
 
 .footer-area {
 
@@ -419,6 +441,9 @@ footer {
     justify-content: center;
 
 }
+
+
+/* Made responsive for mobile devices according to the bootstrap's breakpoint */
 
 
 @media screen and (max-width:576px) {
@@ -462,6 +487,137 @@ footer {
     .team-text {
 
         margin-top: 30px;
+        text-align: center;
+    }
+
+    .feature-text {
+        width: 100%;
+
+
+    }
+
+    .f-list {
+
+        width: 100%;
+        margin-right: 100px;
+        text-align: left;
+    }
+
+    .feature-area {
+
+        flex-direction: column;
+    }
+
+    .feature-image img {
+
+        width: 100%;
+    }
+
+    .bonus-area {
+
+        width: 100%;
+        margin: 0;
+    }
+
+    .bonus-text h1 {
+
+        font-size: 50px;
+
+       
+
+    }
+
+    .bonus-container {
+        flex-direction: column;
+
+
+    }
+
+    .bonus-experience {
+
+        flex-direction: column;
+        text-align: center;
+    }
+
+     .bonus-experience h2 {
+
+        font-size: 15px;
+        padding-top: 20px;
+    }
+    .facts-text {
+
+        text-align: center;
+    }
+
+   
+
+    .cards {
+
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        row-gap: 20px;
+    }
+
+    .card {
+
+        width: 80%;
+    }
+
+
+    .sponsor-images {
+
+
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        row-gap: 50px;
+        width: 100%;
+        justify-items: center;
+
+        
+    }
+
+    .footer-area {
+
+        width: 100%;
+        text-align: center;
+    }
+}
+
+
+/* Made responsive for Table Devices */
+
+
+@media screen and (min-width:577px) and (max-width:1200px) {
+
+    section {
+
+        width: 100%;
+        margin: 0;
+    }
+
+    .team-images {
+
+        grid-template-columns: repeat(2,1fr);
+        margin: 0;
+
+    }
+
+    .team-images img {
+
+        width: 100%;
+    }
+
+    .teams {
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+
+    .team-text {
+
+        margin-top: 30px;
+        text-align: center;
     }
 
     .feature-text {
@@ -520,8 +676,9 @@ footer {
     .cards {
 
         display: grid;
-        grid-template-columns: repeat(1,1fr);
+        grid-template-columns: repeat(2,1fr);
         row-gap: 20px;
+        margin-left: 0;
     }
 
     .card {
@@ -547,4 +704,5 @@ footer {
         width: 100%;
         text-align: center;
     }
+    
 }
