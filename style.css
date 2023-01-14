@@ -298,3 +298,32 @@ section {
     padding-top: 60px;
     margin-right: 70px;
 }
+
+.footer-area {
+
+    width: 1750px;
+    background-color: #FFF4E7;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 216px ;
+    
+}
+
+.footer-area p {
+
+    color: #727272;
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 5px;
+
+
+}
+
+footer {
+
+    display: flex;
+    justify-content: center;
+
+}
