@@ -278,3 +278,23 @@ section {
 
 
 }
+
+.sponsor-text  {
+
+    text-align: center;
+}
+
+.sponsor-text h1 {
+
+    font-size: 45px;
+    padding-bottom: 45px;
+}
+
+.sponsor-images {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 60px;
+    margin-right: 70px;
+}
