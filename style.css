@@ -248,6 +248,83 @@ section {
 
 }
 
+
+.bonus-area {
+
+    background: #C3CBEA;
+    width: 100%;
+    height: 100%;
+    margin-left: 150px;
+    margin-right: 150px;
+    border-radius: 20px;
+   
+}
+
+.bonus-container {
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.bonus-text {
+
+    color: #424D79;
+    padding: 100px;
+
+
+
+}
+
+.bonus-text h1 {
+
+    font-size: 56px;
+    margin-bottom: 36px;
+}
+
+.bonus-image {
+
+    text-align: center;
+}
+
+.bonus-image h3 {
+
+    color: #424D79;
+}
+
+.bonus-image p {
+
+    font-weight: 400;
+    font-size: 10px;
+    margin-top: 5px;
+    color: #727272;
+
+
+
+}
+
+.bonus-experience {
+
+    display: flex;
+    justify-content: space-around;
+    padding: 62px 0;
+}
+
+.info h2 {
+
+    color: #1E3240;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+
+
+.info h1 {
+
+    font-size: 40px;
+    color: #424D79;
+}
 .cards {
 
     display: flex;
@@ -266,6 +343,13 @@ section {
     margin-right: 125px;
     text-align: center;
     padding: 45px 35px;
+}
+
+
+
+.card:hover  {
+    transform: scale(1.5);
+    border-color: darkslateblue;
 }
 
 
@@ -402,6 +486,36 @@ footer {
 
         width: 100%;
     }
+
+    .bonus-area {
+
+        width: 100%;
+        margin: 0;
+    }
+
+    .bonus-container {
+        flex-direction: column;
+
+
+    }
+
+    .bonus-experience {
+
+        flex-direction: column;
+        text-align: center;
+    }
+
+     .bonus-experience h2 {
+
+        font-size: 15px;
+        padding-top: 20px;
+    }
+    .facts-text {
+
+        text-align: center;
+    }
+
+   
 
     .cards {
 
