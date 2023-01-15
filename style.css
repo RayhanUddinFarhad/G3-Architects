@@ -89,6 +89,12 @@ li {
 
 }
 
+.banner-image {
+
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
 .banner-image img {
 
     width: 80%;
