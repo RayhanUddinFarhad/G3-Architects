@@ -563,8 +563,10 @@ footer {
     }
 
     .btn-sec {
+        position: relative;
 
         width: 50%;
+        padding: 30px;
 
        
         
