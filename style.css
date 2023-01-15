@@ -155,7 +155,6 @@ section {
     margin: 24px 0;
     font-size: 12px;
     color: #727272;
-    line-height: 26px;
     font-weight: 400;
 
 }
@@ -216,6 +215,13 @@ section {
 
 /* Here is secoundary button's style */
 
+.feature-image {
+
+    position: relative;
+    z-index: 1;
+
+}
+
 .btn-sec {
 
     border: 0;
@@ -223,8 +229,13 @@ section {
     color: white;
     padding: 30px;
     border-radius: 5px;
-    position: relative;
-    bottom: 100px;
+    position: absolute;
+    z-index: 2;
+    top: 85%;
+  left: 50%;
+  right: 100px;
+  transform: translate(-100%, -30%);
+    
 
 
 }
@@ -484,6 +495,8 @@ footer {
         flex-direction: column;
     }
 
+
+
     .team-text {
 
         margin-top: 30px;
@@ -529,6 +542,8 @@ footer {
 
     .bonus-container {
         flex-direction: column;
+        padding-top: 20px;
+
 
 
     }
@@ -547,6 +562,21 @@ footer {
     .facts-text {
 
         text-align: center;
+    }
+
+    .btn-sec {
+
+        width: 50%;
+
+       
+        
+
+
+    }
+
+    .btn-sec h1 {
+
+        font-size: 30px;
     }
 
    
