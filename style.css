@@ -102,6 +102,14 @@ li {
     border-radius: 5px;
 }
 
+.btn-primary:hover {
+
+    border: 1px solid #FF900E;
+    background-color: white;
+    color: #FF900E;
+
+}
+
 
 /* Teams area */
 
@@ -417,6 +425,8 @@ section {
     justify-content: space-around;
     align-items: center;
     padding-top: 60px;
+    filter: grayscale(100%);
+
     margin-right: 70px;
 }
 
@@ -506,6 +516,8 @@ footer {
 
 
     }
+
+   
 
     .f-list {
 
@@ -733,6 +745,13 @@ footer {
 
         width: 100%;
         text-align: center;
+    }
+
+    .btn-sec {
+
+        position: absolute;
+
+        right: 50%;
     }
     
 }
